@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.26",
 	"Category": "",
-	"Description": "",
+	"Description": "Anime Cyberpunk Brawl Stars Mobile - iOS Edition",
 	"Plugins": [
 		{
 			"Name": "PythonScriptPlugin",
@@ -10,7 +10,26 @@
 		},
 		{
 			"Name": "AdvancedSteamSessions",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleARKit",
 			"Enabled": true
+		},
+		{
+			"Name": "iOS",
+			"Enabled": true
+		},
+		{
+			"Name": "MobileUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "AndroidPermission",
+			"Enabled": false
 		}
+	],
+	"TargetPlatforms": [
+		"IOS"
 	]
 }
